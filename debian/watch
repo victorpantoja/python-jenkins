@@ -1,0 +1,3 @@
+version=3
+https://launchpad.net/python-jenkins/+download \
+https://launchpad.net/python-jenkins/.*/python-jenkins-(.*).tar.gz

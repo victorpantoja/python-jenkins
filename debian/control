@@ -1,0 +1,23 @@
+Source: python-jenkins
+Section: python
+Priority: optional
+Maintainer: James Page <james.page@ubuntu.com>
+Uploaders: Paul Belanger <paul.belanger@polybeacon.com>
+Build-Depends: debhelper (>= 9),
+ python-all (>= 2.6.6-3)
+Standards-Version: 3.9.3
+X-Python-Version: >= 2.6
+Homepage: http://launchpad.net/python-jenkins
+Vcs-Git: git://github.com/pabelanger/python-jenkins.git
+Vcs-Browser: https://github.com/pabelanger/python-jenkins
+
+Package: python-jenkins
+Architecture: all
+Depends: ${python:Depends}, ${shlibs:Depends}, ${misc:Depends}
+Description: Python bindings for the Jenkins Remote API
+ This package provides Python bindings for the Jenkins Remote 
+ API. It current supports management of:
+ .
+  * Project configuration
+  * Build control
+  * Slave node configuration
