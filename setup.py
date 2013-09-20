@@ -12,4 +12,5 @@ setup(name='python-jenkins',
       packages=find_packages(),
       package_dir={"jenkins": "jenkins"},
       include_package_data=True,
+      scripts=['jenkins/python_jenkins.py'],
      )
